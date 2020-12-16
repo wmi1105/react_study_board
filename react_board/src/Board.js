@@ -141,7 +141,6 @@ class BoardForm extends Component{
         <button type="submit">Save</button>
       </form>
     )
-    
   }
 }
 
