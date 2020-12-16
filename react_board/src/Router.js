@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 import App from './App';
 import board from './Board';
+import board2 from './BoardMain';
 
 class routes extends Component{
     render(){
@@ -11,6 +12,7 @@ class routes extends Component{
                 <div>
                 <Route exact path="/" component={App}/>
                 <Route exact path="/board" component={board}/>
+                <Route exact path="/board2" component={board2}/>
                 </div>
             </Router>
         )
