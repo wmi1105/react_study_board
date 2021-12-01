@@ -1,3 +1,4 @@
-react study - board 
+# react study - board 
 
-react class 사용
+react class 
+- state, props, route
